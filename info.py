@@ -15,9 +15,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '7872289'))
-API_HASH = environ.get('API_HASH', 'ba74060bc1f9209cde8aee299d69b518')
-BOT_TOKEN = environ.get('BOT_TOKEN', '1786837074:AAFlsPPU93FNGCbLjwhaz7uEENVejmlxhlM')
+API_ID = int(environ.get('API_ID', '16767636'))
+API_HASH = environ.get('API_HASH', 'adfd92666a3cce231cf750514a57920d'')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5908896129:AAHWWRlwlL9Guv-ny98LwvrXSkI16vNHXUQ')
 
 #Delete_Time
 DELETE_TIME = int(environ.get('DELETE_TIME', 15))
@@ -36,9 +36,9 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Roy:Roy@cluster0.iaolxuj.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Royy")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://daisydaisy1332:obFFBLJfk1vV8zPc@cluster0.tk9po.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "daisydaisy1332")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'andi')
 
 # FSUB
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -49,8 +49,8 @@ REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL)
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001680037642))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DKBOTxCHATS')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001524483029))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moviesclubz77')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
